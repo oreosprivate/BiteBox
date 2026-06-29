@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+    text-decoration-style: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+button{ color: white;
+    background-color: red;
+    height: 22.5px;
+    width: 60px;
+    border: 0px none;
+    border-radius: 8px;
+}
