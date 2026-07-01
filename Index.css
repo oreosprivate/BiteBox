@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-div {color: white;
+.one{color: white;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,7 @@ ul{
     display: flex;
     justify-content: space-between;
     gap: 13px;
-    text-decoration-style: none;
+    text-decoration: none;
 }
 a:visited{
     color: white;
@@ -33,4 +33,30 @@ button{ color: white;
     width: 60px;
     border: 0px none;
     border-radius: 8px;
+}
+.two{
+    border: 0px solid;
+    width: 100%;
+    height: 700px;
+    background-image: url(./Delicious\ burgers\,\ pizzas\,\ and\ assorted\ food\ items\ arranged\ appetizingly\ for\ a\ food\ delivery\ app\ hero\ banner\,\ vibrant\ colors\,\ fresh\ ingredients\,\ professional\ food\ photography\ style\,\ mouth-watering\ presentation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#two{
+    position: absolute;
+    top: 325px;
+    font-weight: 900;
+    padding-left: 33%;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(226, 218, 218);
+}
+#three{ position: absolute;
+    top: 380px;
+    font-weight: 400;
+    padding-left: 42%;
+    font-size: 29px;
+    text-align: center;
+    color: rgb(226, 218, 218);
+
 }
