@@ -38,25 +38,79 @@ button{ color: white;
     border: 0px solid;
     width: 100%;
     height: 700px;
-    background-image: url(./Delicious\ burgers\,\ pizzas\,\ and\ assorted\ food\ items\ arranged\ appetizingly\ for\ a\ food\ delivery\ app\ hero\ banner\,\ vibrant\ colors\,\ fresh\ ingredients\,\ professional\ food\ photography\ style\,\ mouth-watering\ presentation.jpg);
+    background-image: url(./Delicious\ burgers\,\ pizzas\,\ biryani\ rice\ dishes\,\ fried\ chicken\,\ chicken\ wings\,\ grilled\ chicken\,\ fast\ food\ items\ arranged\ appetizingly\ for\ a\ food\ delivery\ app\ hero\ banner\,\ black\ and\ red\ color\ theme\,\ dramatic\ lighting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #two{
     position: absolute;
-    top: 325px;
+    top: 330px;
     font-weight: 900;
-    padding-left: 33%;
+    padding-left: 30%;
     font-size: 48px;
     text-align: center;
     color: rgb(226, 218, 218);
 }
-#three{ position: absolute;
-    top: 380px;
+p{ position: absolute;
+    top: 390px;
     font-weight: 400;
-    padding-left: 42%;
-    font-size: 29px;
+    padding-left: 30%;
+    font-size: 22px;
     text-align: center;
     color: rgb(226, 218, 218);
 
+}
+#three{color: white;
+    background-color: red;
+    height: 50px;
+    width: 90px;
+    border: 0px none;
+    border-radius: 8px;
+position: absolute;
+top: 430px;
+margin-left: 30%;
+cursor: pointer;
+}
+.three{ border: 0px solid;
+    width: 100%;
+    height: 600px;
+    display: grid;
+grid-template-columns: 700px auto;
+grid-template-rows: 300px auto;
+row-gap: 20px;
+column-gap: 20px;
+background-color: black;
+border-color: aliceblue;
+}
+.child{
+    border: 0px solid;
+    top: 20px;
+    border-color: aliceblue;
+    color: beige;
+    width: 100%;
+    height: 100%;
+}
+.child:last-child{
+    margin-left: 45%;
+    width: 700px;
+    
+}
+h2{
+    font-family:sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5%;
+}
+#seven{font-size: 40px;
+padding-left: 20px;
+padding-top: 2%;
+}
+#eight{
+    font-size: 40px;
+padding-left: 20px;
+padding-top: 2%;
+color: red;
+}
+video{
+    margin-top: 10px;
 }
